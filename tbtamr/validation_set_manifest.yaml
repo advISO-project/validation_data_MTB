@@ -1,0 +1,107 @@
+name: validation_set_1
+description: A set of validation files derived from tbtamr
+version: 1.0.0
+samples:
+  class: Collection
+  collection_type: list:pair
+  elements:
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732310
+    elements:
+    - class: File
+      path: fastqs/SRR21732310_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR217/010/SRR21732310/SRR21732310_1.fastq.gz
+    - class: File
+      path: fastqs/SRR21732310_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR217/010/SRR21732310/SRR21732310_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732398
+    elements:
+    - class: File
+      path: fastqs/SRR21732398_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR217/098/SRR21732398/SRR21732398_1.fastq.gz
+    - class: File
+      path: fastqs/SRR21732398_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR217/098/SRR21732398/SRR21732398_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR26558637
+    elements:
+    - class: File
+      path: fastqs/SRR26558637_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR265/037/SRR26558637/SRR26558637_1.fastq.gz
+    - class: File
+      path: fastqs/SRR26558637_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR265/037/SRR26558637/SRR26558637_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR26558644
+    elements:
+    - class: File
+      path: fastqs/SRR26558644_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR265/044/SRR26558644/SRR26558644_1.fastq.gz
+    - class: File
+      path: fastqs/SRR26558644_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR265/044/SRR26558644/SRR26558644_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR27450197
+    elements:
+    - class: File
+      path: fastqs/SRR27450197_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/097/SRR27450197/SRR27450197_1.fastq.gz
+    - class: File
+      path: fastqs/SRR27450197_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/097/SRR27450197/SRR27450197_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR27450219
+    elements:
+    - class: File
+      path: fastqs/SRR27450219_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/019/SRR27450219/SRR27450219_1.fastq.gz
+    - class: File
+      path: fastqs/SRR27450219_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/019/SRR27450219/SRR27450219_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR27450341
+    elements:
+    - class: File
+      path: fastqs/SRR27450341_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/041/SRR27450341/SRR27450341_1.fastq.gz
+    - class: File
+      path: fastqs/SRR27450341_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/041/SRR27450341/SRR27450341_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR27450456
+    elements:
+    - class: File
+      path: fastqs/SRR27450456_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/056/SRR27450456/SRR27450456_1.fastq.gz
+    - class: File
+      path: fastqs/SRR27450456_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/056/SRR27450456/SRR27450456_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR27450480
+    elements:
+    - class: File
+      path: fastqs/SRR27450480_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/080/SRR27450480/SRR27450480_1.fastq.gz
+    - class: File
+      path: fastqs/SRR27450480_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/080/SRR27450480/SRR27450480_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR27450643
+    elements:
+    - class: File
+      path: fastqs/SRR27450643_1.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/043/SRR27450643/SRR27450643_1.fastq.gz
+    - class: File
+      path: fastqs/SRR27450643_2.fastq.gz
+      location: https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR274/043/SRR27450643/SRR27450643_2.fastq.gz
