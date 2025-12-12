@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Validation Workflow
 
 Automate sample selection, FASTQ extraction, ENA metadata lookup, and manifest generation for for MTB validation data.
