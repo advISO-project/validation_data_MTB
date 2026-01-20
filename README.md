@@ -1,7 +1,6 @@
 # Validation Workflow
 
-Automate sample selection, FASTQ extraction, ENA metadata lookup, and manifest generation for for MTB validation data.
-The workflow uses simple Python scripts and a clean directory structure, making it easy to run and reproduce.
+This repository provides a reproducible mini-workflow for generating validation datasets for MTB genomics pipelines. The workflow automates selection of truth set samples, retrieval of associated FASTQ files from ENA, and creation of manifests for downstream analysis. This serves as the initial foundation towards a comprehensive validation dataset.
 
 ---
 
