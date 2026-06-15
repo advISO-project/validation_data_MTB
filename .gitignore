@@ -1,2 +1,8 @@
 tbtamr/fastqs/
 
+
+# Large sequencing files
+*.fastq.gz
+*.fq.gz
+lineage/fastqs/
+tbtamr/fastqs/
