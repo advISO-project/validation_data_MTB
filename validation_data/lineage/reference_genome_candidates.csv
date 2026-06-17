@@ -1,0 +1,28 @@
+sample_id,species,accession,reported_lineage,reported_sublineage,source,notes
+GM041182,M.africanum,NC_015758.1,6,BOV_AFRI,Coll2014_SuppTable4,Reference genome
+BCG_Korea_1168P,M.bovis,CP003900.2,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome
+BCG_Mexico,M.bovis,NC_016804.1,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome
+BCG_Moreau_RDJ,M.bovis,AM412059.2,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome
+BCG_Pasteur_1173P2,M.bovis,NC_008769.1,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome
+BCG_Tokyo_172,M.bovis,NC_012207.1,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome
+7199_99,M.tuberculosis,NC_020089.1,4,4.1.2.1,Coll2014_SuppTable4,Haarlem lineage
+BT1,M.tuberculosis,CP002883.1,2,2.2.1,Coll2014_SuppTable4,Beijing/W
+BT2,M.tuberculosis,CP002882.1,2,2.2.1,Coll2014_SuppTable4,Beijing/W
+CAS_NITR204,M.tuberculosis,NC_021193.1,3,CAS,Coll2014_SuppTable4,CAS strain
+CCDC5079,M.tuberculosis,NC_017523.1,2,2.2.1,Coll2014_SuppTable4,Beijing family
+CCDC5180,M.tuberculosis,NC_017522.1,2,2.2.1,Coll2014_SuppTable4,Beijing family
+CDC1551,M.tuberculosis,NC_002755.2,4,4.1.1.3,Coll2014_SuppTable4,X family
+CTRI_2,M.tuberculosis,CP002992.1,4,4.3.3,Coll2014_SuppTable4,LAM9
+EAI5,M.tuberculosis,CP006578.1,1,1.1,Coll2014_SuppTable4,EAI5
+EAI5_NITR206,M.tuberculosis,NC_021194.1,1,1.1,Coll2014_SuppTable4,EAI5
+F11,M.tuberculosis,NC_009565.1,4,4.3.2.1,Coll2014_SuppTable4,LAM3
+HKBS1,M.tuberculosis,CP002871.1,2,2.2.1,Coll2014_SuppTable4,Beijing/W
+KZN1435,M.tuberculosis,NC_012943.1,4,4.3.3,Coll2014_SuppTable4,LAM family
+KZN4207,M.tuberculosis,NC_016768.1,4,4.3.3,Coll2014_SuppTable4,LAM family
+KZN605,M.tuberculosis,NC_018078.1,4,4.3.3,Coll2014_SuppTable4,LAM family
+RGTB327,M.tuberculosis,CP003233.1,4,4.3.4,Coll2014_SuppTable4,Not reported
+RGTB423,M.tuberculosis,NC_017528.1,1,1.2.2,Coll2014_SuppTable4,Not reported
+Beijing_NITR203,M.tuberculosis,NC_021054.1,2,2.2.1.1,Coll2014_SuppTable4,Beijing strain
+Erdman_ATCC35801,M.tuberculosis,AP012340.1,4,4.1.2.1,Coll2014_SuppTable4,Haarlem strain
+Haarlem_UT205,M.tuberculosis,CP001664.1,4,4.1.2.1,Coll2014_SuppTable4,Haarlem strain
+UT205,M.tuberculosis,NC_016934.1,4,4.3.4.2,Coll2014_SuppTable4,LAM family

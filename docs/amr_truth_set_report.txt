@@ -1,0 +1,10 @@
+Sample 0: Selected as poly_resistant, first-line resistant: 4, second-line resistant: 0, mutations: N/A
+Sample 1: Selected as fully_susceptible, first-line resistant: 0, second-line resistant: 0, mutations: N/A
+Sample 2: Selected as mono_resistant, first-line resistant: 1, second-line resistant: 0, mutations: N/A
+Sample 3: Selected as poly_resistant, first-line resistant: 4, second-line resistant: 0, mutations: N/A
+Sample 4: Selected as mono_resistant, first-line resistant: 1, second-line resistant: 0, mutations: N/A
+Sample 5: Selected as poly_resistant, first-line resistant: 3, second-line resistant: 0, mutations: N/A
+Sample 6: Selected as fully_susceptible, first-line resistant: 0, second-line resistant: 0, mutations: N/A
+Sample 7: Selected as poly_resistant, first-line resistant: 4, second-line resistant: 0, mutations: N/A
+Sample 8: Selected as fully_susceptible, first-line resistant: 0, second-line resistant: 0, mutations: N/A
+Sample 9: Selected as poly_resistant, first-line resistant: 2, second-line resistant: 0, mutations: N/A

@@ -1,133 +1,245 @@
-## **Aim of this Resource**
-The goal of this repository is to provide a **high-quality, reproducible MTB validation dataset** that can be used to **validate genomics pipelines**. Validating a custom pipeline is a critical step in ensuring reproducibility, reliability, and eventual accreditation.  
+# validation_tuberculosis
 
-Dataset focuses on **real-world, high-confidence samples** covering the key validation objectives:  
+Validation resources for testing and validating *Mycobacterium tuberculosis* (MTB) bioinformatics workflows as part of the advISO (Advancing Bioinformatics through ISO Accreditation) project.
 
-- **AMR genotype → phenotype mapping**  
-- **Lineage assignment**  
-- **Variant calling (SNPs and indels)**  
-- **Species determination (MTB vs NTMs)**  
-- **Detection of mixed or contaminated samples**  
+## Background
 
----
+ISO standards such as ISO 15189 and ISO 17025 require laboratories to demonstrate that analytical methods are fit for purpose. While these standards are well established in clinical and diagnostic laboratories, practical resources for validating pathogen bioinformatics workflows remain limited.
 
-## **Core Validation Objectives**
+The aim of this repository is to provide a reproducible validation framework for MTB genomic analysis workflows. This includes curated validation datasets, truth sets, validation procedures, and workflow documentation that can be used to assess workflow performance and support quality assurance activities.
 
-The datasets are designed to test pipelines across all critical areas:
+## Objectives
 
-**AMR validation**  
-- Ensure genotype → phenotype mapping accurately predicts resistance.  
-- Include major first-line and second-line drugs: rifampicin, isoniazid, ethambutol, pyrazinamide, fluoroquinolones, etc.  
+The validation framework is designed to assess:
 
-**Lineage assignment**  
-- Validate correct assignment to MTB lineages.  
-- Detect mixed-lineage or ambiguous samples.  
+* Antimicrobial resistance (AMR) prediction
+* Lineage assignment
+* Variant calling
+* Species determination
+* Detection of mixed or contaminated samples
+* End-to-end workflow reproducibility
 
-**Variant calling**  
-- **SNPs:** single nucleotide polymorphisms across the genome.  
-- **Indels:** insertions/deletions, including frameshifts in AMR genes.  
+## Core Validation Components
 
-**Mixed / contaminated samples**  
-- Include real or verified mixed samples where possible.  
-- Test ability to detect minor allele fractions.  
-- Validate pipeline behavior on low-quality or contaminated reads.  
+### AMR Validation
 
-**Species determination**  
-- Correctly classify MTB vs non-tubercular mycobacteria (NTMs).  
-- Include samples with potential contamination or co-infection.  
+Ensure genotype-to-phenotype mapping accurately predicts resistance.
 
----
+Validation datasets include major first-line and second-line drugs:
 
-## **Trusted Real-World Data Sources**
+* Rifampicin
+* Isoniazid
+* Ethambutol
+* Pyrazinamide
+* Fluoroquinolones
+* Bedaquiline
+* Linezolid
+* Additional drugs where validated data are available
 
-Dataset will be built from **trusted public resources**, with high-confidence metadata and verified sequencing:  
+### Lineage Assignment
 
-| Validation Target | Source / Dataset | Notes |
-|------------------|-----------------|-------|
-| **AMR genotype → phenotype** | tbtAMR (PRJNA857537) | High-quality isolates with verified culture-based DST. |
-| **Lineage assignment** | Coll et al., 2018; Fastlin et al., 2023; TBDB barcode database | Lineage calls for major MTB lineages; TBDB barcodes define lineage-specific SNPs. |
-| **SNP calling** | Sanger AMR loci (PRJEB15555) | Gold-standard SNPs at AMR loci; genome-wide validation with WGS isolates. |
-| **Indel calling** | To be added | Will include validated or curated indels in key AMR genes. |
-| **Mixed / contaminated samples** | To be added | Will include validated or simulated mixtures for pipeline robustness. |
-| **Species determination** | MTB isolates + NTM genomes from ENA/SRA | Test pipeline’s ability to distinguish MTB from NTMs. |
+Validate correct assignment to MTB lineages and sub-lineages.
 
----
+The framework aims to:
 
-## **Approach for Creating High-Quality Datasets**
+* Verify lineage classification accuracy
+* Evaluate sub-lineage assignment
+* Detect mixed-lineage samples
+* Assess performance across diverse MTB populations
 
-1. Pull samples with **high-confidence metadata** (culture-based DST, verified lineage, known SNPs).  
-2. Standardize **sample IDs** across different sources for consistent comparison.  
-3. Include only samples with **raw FASTQs available** for pipeline input.  
-4. Document **source, validation method, and confidence level** for each sample.  
+### Variant Calling
 
----
+Evaluate detection of genomic variation including:
 
-## **Datasets Provided**
+* Single nucleotide polymorphisms (SNPs)
+* Insertions and deletions (indels)
+* Resistance-associated mutations
+* Genome-wide variant detection
 
-- `truth_set.csv` – Master table of samples with AMR, lineage, and metadata.  
-- `truth_set_manifest.csv` – Table linking **local FASTQ paths** and **ENA URLs**.  
-- `validation_set_manifest.yaml` – Galaxy/Planemo paired collection format for pipeline input.  
+### Mixed / Contaminated Samples
 
----
+Assess workflow robustness when processing:
 
-## **Validation Workflow**
+* Mixed infections
+* Low-frequency variants
+* Contaminated datasets
+* Ambiguous lineage assignments
 
-This repository includes a reproducible mini-workflow for generating validation datasets for MTB genomics pipelines. The workflow automates selection of truth set samples, retrieval of associated FASTQ files from ENA, and creation of manifests for downstream analysis. This serves as the initial foundation towards a comprehensive validation dataset. This mini-pipeline performs the following steps:
+### Species Determination
 
-### 1. Extract the Truth Set
+Evaluate the ability to distinguish:
+
+* *Mycobacterium tuberculosis*
+* Animal-associated members of the MTB complex
+* Non-tuberculous mycobacteria (NTMs)
+
+## Repository Structure
+
+```text
+workflow/
+    Workflow definitions and workflow documentation.
+
+validation_data/
+    Sample manifests, accession lists and metadata for validation datasets.
+
+truth_sets/
+    Curated reference datasets and expected results used for validation.
+
+docs/
+    Validation procedures, reports and supporting documentation.
+
+scripts/
+    Utility scripts for dataset generation and validation.
+
+env/
+    Conda and pip environments required for reproducing the validation datasets.
+```
+
+## Validation Datasets
+
+### AMR Validation Dataset
+
+The AMR validation dataset is derived from publicly available MTB isolates with high-confidence genotype and phenotype information.
+
+Current resources include:
+
+* AMR truth sets
+* Sample manifests
+* Galaxy collection manifests
+* Validation reports
+* Example workflow outputs
+
+Primary source:
+
+* tbtAMR (PRJNA857537)
+
+### Lineage Validation Dataset
+
+The lineage validation framework is currently under active development.
+
+Current resources include:
+
+* TBDB lineage barcode markers
+* Coll et al. lineage reference datasets
+* Candidate lineage validation samples
+* Pilot FASTQ validation panel
+* TB-Profiler lineage characterization results
+
+Primary sources:
+
+* Coll et al.
+* TBDB barcode database
+
+## Trusted Data Sources
+
+| Validation Target     | Source / Dataset               | Notes                                        |
+| --------------------- | ------------------------------ | -------------------------------------------- |
+| AMR prediction        | tbtAMR (PRJNA857537)           | High-confidence isolates with phenotypic DST |
+| Lineage assignment    | Coll et al.; TBDB              | Lineage-defining SNPs and reference genomes  |
+| Variant calling       | Public MTB WGS datasets        | Genome-wide SNP validation                   |
+| Species determination | MTB and NTM reference datasets | Evaluation of species classification         |
+| Mixed samples         | Under development              | Future validation component                  |
+
+## Dataset Generation Workflow
+
+The repository contains scripts used to construct validation datasets from public resources.
+
+### 1. Extract Truth Set
+
 `extract_samples_from_tbtamr.py`
-- Reads the `truth_set.csv` exported from tbtamr.
-- Selects the isolates needed for validation.
-- Outputs a cleaned CSV: `truth_set.csv`.
 
-### 2. Fetch FASTQs from ENA (HTTP)
+* Reads source validation datasets
+* Selects isolates for validation
+* Produces curated truth sets
+
+### 2. Download FASTQs
+
 `extract_fastqs_for_tbtamr.py`
-- Retrieves paired-end FASTQ files directly from ENA using HTTP download links.  
-- Automatically downloads all FASTQs listed in your input manifest (e.g., SRA/ENA accessions).  
-- Saves all downloaded files into the directory:  
-  `tbtamr/fastqs/`
-- Ensures correct naming of paired reads (`_1.fastq.gz` and `_2.fastq.gz`).  
-- Skips already-downloaded files to avoid re-fetching.
 
+* Retrieves paired-end FASTQ files from ENA
+* Downloads validation reads
+* Maintains reproducible sample selection
 
-### 3. Generate Manifest Files
+### 3. Generate Validation Manifests
+
 `generate_manifest.py`
-Retrieves ENA FTP links using SRR accessions.
-- Generates a table containing:
-  - Local FASTQ paths
-  - ENA URLs
-  - Some metadata from truth set
-- Produces:
-  - `truth_set_manifest.csv`
-  - `validation_set_manifest.yaml`  
-    (Galaxy/Planemo paired collection format)
+
+Produces:
+
+* `truth_set_manifest.csv`
+* `validation_set_manifest.yaml`
+
+These manifests can be used directly within Galaxy or Planemo workflows.
 
 ### 4. Optional End-to-End Pipeline
+
 `run_pipeline.py`
-- Executes all steps in sequence.
 
+Executes the complete validation dataset generation process.
 
----
+## Validation Workflow
 
-## How to Run the Workflow
+The general validation process is:
 
-### 1. Create the Environment
+1. Obtain validation samples using the supplied manifests.
+2. Execute the workflow under evaluation.
+3. Compare workflow outputs against the supplied truth sets.
+4. Calculate concordance and performance metrics.
+5. Document validation results according to the provided procedures.
 
-**Using Conda:**
+## Environment Setup
+
+### Using Conda
 
 ```bash
 conda env create -f env/environment.yml
 conda activate validation_env
 ```
 
-**Using pip:**
+### Using Pip
 
 ```bash
 pip install -r env/requirements.txt
 ```
 
-**Run the Entire Pipeline:**
+## Current Status
 
-```bash
-python scripts/run_pipeline.py
-```
+### Available
+
+* AMR validation dataset
+* Validation manifests
+* Dataset generation scripts
+* TBDB lineage marker resources
+* Pilot lineage validation dataset
+* TB-Profiler lineage characterization
+
+### Under Development
+
+* Expanded lineage validation panel
+* Indel validation framework
+* Mixed infection validation datasets
+* Species determination validation datasets
+* Galaxy workflow publication through the Intergalactic Workflow Commission (IWC)
+
+## Future Work
+
+Planned additions include:
+
+* Broader lineage coverage 
+* Mixed infection validation datasets
+* Contamination assessment datasets
+* Additional pathogen-specific validation resources
+* Automated validation reporting
+* Workflow publication through Galaxy community infrastructure
+
+## advISO Project
+
+The advISO project aims to develop practical resources that support quality-assured pathogen bioinformatics and facilitate adoption of ISO accreditation principles within bioinformatics workflows.
+
+Project website:
+
+https://www.cardiff.ac.uk/adviso-bioinformatics-accreditation
+
+## Citation
+
+If you use these validation resources, please cite the original data sources as described in the accompanying documentation and metadata files.

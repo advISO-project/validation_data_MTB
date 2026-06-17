@@ -1,0 +1,28 @@
+sample_id,species,accession,reported_lineage,reported_sublineage,source,notes,has_fastq,run_accession,fastq_ftp,read_lookup_notes
+GM041182,M.africanum,NC_015758.1,6,BOV_AFRI,Coll2014_SuppTable4,Reference genome,no,,,No ENA read_run match found
+BCG_Korea_1168P,M.bovis,CP003900.2,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome,no,,,No ENA read_run match found
+BCG_Mexico,M.bovis,NC_016804.1,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome,no,,,No ENA read_run match found
+BCG_Moreau_RDJ,M.bovis,AM412059.2,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome,no,,,No ENA read_run match found
+BCG_Pasteur_1173P2,M.bovis,NC_008769.1,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome,no,,,No ENA read_run match found
+BCG_Tokyo_172,M.bovis,NC_012207.1,BOV,BOV_AFRI,Coll2014_SuppTable4,Reference genome,no,,,No ENA read_run match found
+7199_99,M.tuberculosis,NC_020089.1,4,4.1.2.1,Coll2014_SuppTable4,Haarlem lineage,no,,,No ENA read_run match found
+BT1,M.tuberculosis,CP002883.1,2,2.2.1,Coll2014_SuppTable4,Beijing/W,no,,,No ENA read_run match found
+BT2,M.tuberculosis,CP002882.1,2,2.2.1,Coll2014_SuppTable4,Beijing/W,no,,,No ENA read_run match found
+CAS_NITR204,M.tuberculosis,NC_021193.1,3,CAS,Coll2014_SuppTable4,CAS strain,no,,,No ENA read_run match found
+CCDC5079,M.tuberculosis,NC_017523.1,2,2.2.1,Coll2014_SuppTable4,Beijing family,no,,,No ENA read_run match found
+CCDC5180,M.tuberculosis,NC_017522.1,2,2.2.1,Coll2014_SuppTable4,Beijing family,no,,,No ENA read_run match found
+CDC1551,M.tuberculosis,NC_002755.2,4,4.1.1.3,Coll2014_SuppTable4,X family,no,,,No ENA read_run match found
+CTRI_2,M.tuberculosis,CP002992.1,4,4.3.3,Coll2014_SuppTable4,LAM9,no,,,No ENA read_run match found
+EAI5,M.tuberculosis,CP006578.1,1,1.1,Coll2014_SuppTable4,EAI5,no,,,No ENA read_run match found
+EAI5_NITR206,M.tuberculosis,NC_021194.1,1,1.1,Coll2014_SuppTable4,EAI5,no,,,No ENA read_run match found
+F11,M.tuberculosis,NC_009565.1,4,4.3.2.1,Coll2014_SuppTable4,LAM3,no,,,No ENA read_run match found
+HKBS1,M.tuberculosis,CP002871.1,2,2.2.1,Coll2014_SuppTable4,Beijing/W,no,,,No ENA read_run match found
+KZN1435,M.tuberculosis,NC_012943.1,4,4.3.3,Coll2014_SuppTable4,LAM family,no,,,No ENA read_run match found
+KZN4207,M.tuberculosis,NC_016768.1,4,4.3.3,Coll2014_SuppTable4,LAM family,no,,,No ENA read_run match found
+KZN605,M.tuberculosis,NC_018078.1,4,4.3.3,Coll2014_SuppTable4,LAM family,no,,,No ENA read_run match found
+RGTB327,M.tuberculosis,CP003233.1,4,4.3.4,Coll2014_SuppTable4,Not reported,no,,,No ENA read_run match found
+RGTB423,M.tuberculosis,NC_017528.1,1,1.2.2,Coll2014_SuppTable4,Not reported,no,,,No ENA read_run match found
+Beijing_NITR203,M.tuberculosis,NC_021054.1,2,2.2.1.1,Coll2014_SuppTable4,Beijing strain,no,,,No ENA read_run match found
+Erdman_ATCC35801,M.tuberculosis,AP012340.1,4,4.1.2.1,Coll2014_SuppTable4,Haarlem strain,no,,,No ENA read_run match found
+Haarlem_UT205,M.tuberculosis,CP001664.1,4,4.1.2.1,Coll2014_SuppTable4,Haarlem strain,no,,,No ENA read_run match found
+UT205,M.tuberculosis,NC_016934.1,4,4.3.4.2,Coll2014_SuppTable4,LAM family,no,,,No ENA read_run match found
