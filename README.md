@@ -1,8 +1,10 @@
 # *Mycobacterium Tuberculosis* (MTB) Bioinformatics Workflow Validation Datasets
 
+
 This repository contains curated reference datasets, validation manifests, supporting metadata, reproducible scripts, and documentation for evaluating *Mycobacterium tuberculosis* (MTB) bioinformatics workflows.
 
 The work forms part of the advISO project, which aims to support the development, validation, and implementation of quality-assured bioinformatics workflows in clinical and public health laboratories.
+
 
 ## 1. Background
 
@@ -13,6 +15,7 @@ This repository supports these requirements by developing structured, traceable 
 The emphasis is on establishing reliable expected results, documenting dataset selection and processing, and providing reusable resources against which workflow outputs can be evaluated.
 
 The repository provides validation resources; it does not, by itself, establish ISO accreditation or demonstrate that a particular workflow has met all validation acceptance criteria.
+
 
 ## 2. Validation Objectives
 
@@ -26,6 +29,7 @@ The current work is organized around four validation objectives.
 6. End-to-end workflow reproducibility
 
 Each objective has its own data sources, selection methodology, reference datasets, scripts, and supporting documentation.
+
 
 ## 3. Repository Structure
 
@@ -68,6 +72,7 @@ validation_data_MTB/
 
 The objective-specific directories contain validation resources and supporting evidence. The `scripts/` directory contains utilities for dataset preparation and processing, while `workflow/` contains workflow-related resources.
 
+
 ## 4. AMR Genotype-to-Phenotype Validation
 
 **Primary source:** tbtAMR
@@ -83,6 +88,7 @@ The validation approach involves:
 - Running the bioinformatics workflow to obtain genotypic resistance predictions.
 - Comparing predicted resistance profiles against phenotypic DST results.
 - Assessing concordance and relevant performance metrics.
+
 
 
 ## 5. Lineage Assignment Validation
@@ -106,6 +112,7 @@ Supporting metadata, candidate selection tables, pilot manifests, reports, and s
 
 See `lineage/README.md` for the detailed methodology.
 
+
 ## 6. Mixed-Infection Detection Validation
 
 **Primary source:** Sobkowiak et al. (2018)
@@ -127,6 +134,7 @@ The dataset preparation process includes:
 These resources support subsequent comparisons between workflow predictions and known mixed-sample compositions.
 
 See `mixed_infection/README.md` for further documentation.
+
 
 ## 7. Contamination Detection Validation
 
@@ -150,6 +158,7 @@ The current reference panel contains **100 samples** at the selected coverage le
 The repository includes the truth set, validation manifest, pilot manifest, selection policy, metadata, and preparation reports.
 
 See `contamination/README.md` for the detailed selection methodology and supporting evidence.
+
 
 ## 8. General Validation Approach
 
@@ -185,6 +194,7 @@ Maintain scripts, reports, source references, dataset versions, and integrity in
 
 Not every objective has completed every stage of this process. The objective-specific documentation should be consulted for current progress and outstanding work.
 
+
 ## 9. Reproducibility and Data Management
 
 The repository is designed to support transparent and reproducible dataset preparation.
@@ -208,11 +218,11 @@ Local legacy files and temporary analysis outputs are also excluded where specif
 | Validation objective | Current status |
 |---|---|
 | AMR genotype-to-phenotype | Reference dataset and supporting validation resources prepared |
-| Lineage assignment | Fastlin reference preparation and pilot analysis resources developed |
-| Mixed-infection detection | Truth set, validation manifest, reports prepared |
-| Contamination detection | Reference panel and pilot manifests prepared; workflow evaluation ongoing |
+| Lineage assignment | Reference dataset and supporting validation resources prepared |
+| Mixed-infection detection | Reference dataset and supporting validation resources prepared |
+| Contamination detection | Reference dataset and supporting validation resources prepared |
 
-Additional validation objectives, including speciation, SNP and indel detection, will be incorporated as the framework develops.
+Additional validation objectives, including speciation, SNP and indel detection, will be incorporated as the framework develops. Current objectives are also continously refined.
 
 ## 11. Using the Repository
 
