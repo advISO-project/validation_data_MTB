@@ -1,0 +1,46 @@
+Contamination truth-set build report
+========================================
+
+Source study: Heupink et al. 2021
+BioProject: PRJNA706121
+Source workbook: /home/bntozini/ISO-IN-A-BOX/validation_data/contamination/metadata/heupink2021_supplementary_table1_culture_simulations.xlsx
+
+Total simulation sample IDs found in workbook: 600
+COV50 samples retained: 100
+
+Samples by contamination percentage
+----------------------------------------
+contamination_percent
+0    10
+1    17
+2    14
+3    21
+4    22
+5    16
+
+Samples by contaminant code
+----------------------------------------
+contaminant_code
+Hsap     8
+Mabs    15
+Mavi     7
+Mint     8
+Mix1    14
+Mix2     9
+None    10
+Paer    16
+Sepi    13
+
+Contaminant code x contamination percentage
+----------------------------------------
+contamination_percent   0  1  2  3  4  5
+contaminant_code
+Hsap                    0  1  2  3  0  2
+Mabs                    0  3  2  3  4  3
+Mavi                    0  1  1  0  3  2
+Mint                    0  0  1  3  2  2
+Mix1                    0  1  2  2  7  2
+Mix2                    0  2  3  2  2  0
+None                   10  0  0  0  0  0
+Paer                    0  6  2  4  1  3
+Sepi                    0  3  1  4  3  2

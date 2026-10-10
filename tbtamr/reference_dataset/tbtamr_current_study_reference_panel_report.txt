@@ -1,0 +1,53 @@
+tbtAMR Current Study High-Confidence AMR Reference Dataset
+=================================================================
+
+Scope
+-----
+Input file: tbtamr/validation_results_tbtamr_master.csv
+Study filter: Current study
+Second-line drugs included: False
+Random seed: 42
+
+Curation criteria
+-----------------
+1. Only isolates labelled 'Current study' were considered.
+2. Phenotypic DST was retained as the reference resistance status.
+3. Every included drug required a phenotypic result of R or S.
+4. Only TP and TN source comparisons were retained.
+5. TP/TN was used as a concordance-based confidence filter.
+6. Resistance counts were calculated directly from DST == R.
+7. Resistance mechanisms reported by tbtAMR were retained.
+
+Cohort counts
+-------------
+Rows in source dataset: 3004
+Rows from Current study: 1998
+Rows with complete valid DST for included drugs: 1904
+Rows with complete TP/TN concordance for included drugs: 1805
+Rows passing both high-confidence criteria: 1805
+
+Eligible high-confidence samples by category
+--------------------------------------------
+fully_susceptible: 1659
+mono_resistant: 125
+poly_resistant: 21
+
+Representative panel
+--------------------
+Total selected samples: 10
+fully_susceptible: selected 3; target 3
+mono_resistant: selected 2; target 2
+poly_resistant: selected 5; target 5
+
+Selected samples
+----------------
+SRR26558644 | poly_resistant | 4 resistant drug(s) | rifampicin=R [TP; rpoB_p.Ser450Leu (Resistant|High)]; isoniazid=R [TP; katG_p.Ser315Thr (Resistant|High)]; pyrazinamide=R [TP; pncA_p.Ser59Phe (Resistant|Unconfirmed)]; ethambutol=R [TP; embA_c.-11C>A (Resistant|Unconfirmed)]
+SRR21732546 | fully_susceptible | 0 resistant drug(s) | rifampicin=S [TN; No mechanism identified]; isoniazid=S [TN; No mechanism identified]; pyrazinamide=S [TN; No mechanism identified]; ethambutol=S [TN; No mechanism identified]
+SRR21732097 | poly_resistant | 4 resistant drug(s) | rifampicin=R [TP; rpoB_p.Ser450Leu (Resistant|High)]; isoniazid=R [TP; fabG1_c.-15C>T (Low-level resistant|High);katG_p.Ser315Thr (Resistant|High)]; pyrazinamide=R [TP; pncA_p.Gly132Ala (Resistant|High)]; ethambutol=R [TP; embB_p.Gln497Arg (Resistant|High)]
+SRR21732756 | fully_susceptible | 0 resistant drug(s) | rifampicin=S [TN; No mechanism identified]; isoniazid=S [TN; No mechanism identified]; pyrazinamide=S [TN; No mechanism identified]; ethambutol=S [TN; No mechanism identified]
+SRR21733120 | poly_resistant | 2 resistant drug(s) | rifampicin=R [TP; rpoB_p.His445Tyr (Resistant|High)]; isoniazid=R [TP; fabG1_c.-15C>T (Low-level resistant|High);katG_p.Met257Ile (Resistant|Unconfirmed)]; pyrazinamide=S [TN; No mechanism identified]; ethambutol=S [TN; No mechanism identified]
+SRR21732933 | fully_susceptible | 0 resistant drug(s) | rifampicin=S [TN; No mechanism identified]; isoniazid=S [TN; No mechanism identified]; pyrazinamide=S [TN; PPE35_p.Gly877Asp (Not-reportable|Unconfirmed)]; ethambutol=S [TN; No mechanism identified]
+SRR21732245 | poly_resistant | 3 resistant drug(s) | rifampicin=R [TP; rpoB_p.Asp435Val (Resistant|High)]; isoniazid=R [TP; katG_p.Ser315Thr (Resistant|High)]; pyrazinamide=S [TN; No mechanism identified]; ethambutol=R [TP; embB_p.Gln497Arg (Resistant|High)]
+SRR21732059 | mono_resistant | 1 resistant drug(s) | rifampicin=S [TN; No mechanism identified]; isoniazid=R [TP; katG_p.Ser315Thr (Resistant|High)]; pyrazinamide=S [TN; No mechanism identified]; ethambutol=S [TN; No mechanism identified]
+SRR21732378 | mono_resistant | 1 resistant drug(s) | rifampicin=S [TN; No mechanism identified]; isoniazid=R [TP; katG_p.Ser315Thr (Resistant|High)]; pyrazinamide=S [TN; PPE35_p.Pro683Leu (Not-reportable|Unconfirmed)]; ethambutol=S [TN; No mechanism identified]
+SRR26558637 | poly_resistant | 4 resistant drug(s) | rifampicin=R [TP; rpoB_p.Ser450Leu (Resistant|High)]; isoniazid=R [TP; katG_p.Ser315Thr (Resistant|High)]; pyrazinamide=R [TP; pncA_p.Gln10Arg (Resistant|High)]; ethambutol=R [TP; embB_p.Met306Val (Resistant|High)]

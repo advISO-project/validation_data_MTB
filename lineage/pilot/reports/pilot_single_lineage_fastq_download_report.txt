@@ -1,0 +1,28 @@
+LINEAGE PILOT FASTQ DOWNLOAD REPORT
+=====================================
+
+Generated at UTC: 2026-08-03T11:14:52.944185+00:00
+Input manifest: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/metadata/fastlin/pilot_single_lineage_fastq_manifest.csv
+Output directory: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/pilot/fastqs
+Downloader: curl
+
+SAMPLE STATUS
+complete: 20
+failed: 0
+incomplete: 0
+
+FILE STATUS
+already_present_valid: 2
+downloaded_valid: 38
+failed: 0
+
+LOCAL STORAGE
+Verified bytes: 6109511747
+Approximate GiB: 5.690
+
+FAILED OR INCOMPLETE SAMPLES
+None
+
+NOTE
+Every retry started from a clean local file. No ranged resume request was used. Files were accepted only after matching the ENA-provided MD5 checksum.
+This step does not confirm candidate lineage labels.

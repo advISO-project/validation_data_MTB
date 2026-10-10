@@ -1,0 +1,30 @@
+FASTLIN / TB-PROFILER CANDIDATE CLASSIFICATION REPORT
+========================================================
+
+Input dataset: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/metadata/fastlin/candidate_dataset_master.csv
+Total rows classified: 3241
+
+CANDIDATE CLASSIFICATION
+single_lineage_candidate: 3039
+mixed_lineage_candidate: 2
+excluded: 200
+
+CLASSIFICATION REASONS
+single_lineage_concordant_non_mixed: 3039
+not_present_in_both_datasets:tbprofiler_only: 102
+single_lineage_disagreement: 38
+fastlin_mixture_but_tbprofiler_single_or_no_call: 36
+tbprofiler_no_call: 8
+multiple_lineages_without_concordant_mixture: 8
+mixed_lineage_components_disagree: 5
+both_methods_no_call: 2
+mixed_lineage_components_concordant: 2
+fastlin_no_call: 1
+
+RULES
+Single-lineage candidate: present in both datasets; one lineage reported by each method; exact agreement; fastlin mixture=no.
+Mixed-lineage candidate: present in both datasets; fastlin mixture=yes; both methods report multiple lineages; the same lineage components are reported by both methods.
+Excluded: any sample that does not meet either candidate rule.
+
+NOTE
+Candidate classification is not truth assignment. All candidate samples still require independent barcode evidence and QC confirmation.

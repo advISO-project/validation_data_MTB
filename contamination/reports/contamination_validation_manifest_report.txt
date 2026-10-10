@@ -1,0 +1,48 @@
+Contamination validation manifest report
+==========================================
+
+Truth-set samples: 100
+ENA records matched: 100
+Final manifest rows: 100
+Unique run accessions: 100
+Paired FASTQ sets: 100
+
+Mapping key:
+source_sample_id = ENA sample_alias
+
+Samples by contamination percentage
+----------------------------------------
+contamination_percent
+0    10
+1    17
+2    14
+3    21
+4    22
+5    16
+
+Samples by contaminant code
+----------------------------------------
+contaminant_code
+Hsap     8
+Mabs    15
+Mavi     7
+Mint     8
+Mix1    14
+Mix2     9
+None    10
+Paer    16
+Sepi    13
+
+Example mappings
+----------------------------------------
+                                  source_sample_id run_accession sample_accession
+COV50-FASTA10-MCOV50-CONTNone-CPER0-SEED1685314850   SRR13837971     SAMN18118296
+COV50-FASTA13-MCOV50-CONTNone-CPER0-SEED2401727905   SRR13837966     SAMN18118301
+COV50-FASTA23-MCOV50-CONTNone-CPER0-SEED3042531143   SRR13837942     SAMN18118323
+COV50-FASTA31-MCOV50-CONTNone-CPER0-SEED2939115560   SRR13837922     SAMN18118341
+  COV50-FASTA33-MCOV50-CONTNone-CPER0-SEED71068188   SRR13837918     SAMN18118344
+COV50-FASTA37-MCOV50-CONTNone-CPER0-SEED2040114069   SRR13837909     SAMN18118353
+   COV50-FASTA40-MCOV50-CONTNone-CPER0-SEED1259980   SRR13837902     SAMN18118359
+   COV50-FASTA8-MCOV50-CONTNone-CPER0-SEED21479905   SRR13837867     SAMN18118391
+ COV50-FASTA9-MCOV50-CONTNone-CPER0-SEED1524923676   SRR13837866     SAMN18118392
+ COV50-FASTA9-MCOV50-CONTNone-CPER0-SEED1901024007   SRR13837865     SAMN18118393

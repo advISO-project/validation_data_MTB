@@ -1,0 +1,11 @@
+Sample_ID,Resistance_class,Selection_reason,rifampicin_expected,isoniazid_expected,pyrazinamide_expected,ethambutol_expected,R1,R2
+SRR26558644,poly_resistant,poly_resistant,R,R,R,R,tbtamr/fastqs/SRR26558644_1.fastq.gz,tbtamr/fastqs/SRR26558644_2.fastq.gz
+SRR21732546,fully_susceptible,fully_susceptible,S,S,S,S,tbtamr/fastqs/SRR21732546_1.fastq.gz,tbtamr/fastqs/SRR21732546_2.fastq.gz
+SRR21732097,poly_resistant,poly_resistant,R,R,R,R,tbtamr/fastqs/SRR21732097_1.fastq.gz,tbtamr/fastqs/SRR21732097_2.fastq.gz
+SRR21732756,fully_susceptible,fully_susceptible,S,S,S,S,tbtamr/fastqs/SRR21732756_1.fastq.gz,tbtamr/fastqs/SRR21732756_2.fastq.gz
+SRR21733120,poly_resistant,poly_resistant,R,R,S,S,tbtamr/fastqs/SRR21733120_1.fastq.gz,tbtamr/fastqs/SRR21733120_2.fastq.gz
+SRR21732933,fully_susceptible,fully_susceptible,S,S,S,S,tbtamr/fastqs/SRR21732933_1.fastq.gz,tbtamr/fastqs/SRR21732933_2.fastq.gz
+SRR21732245,poly_resistant,poly_resistant,R,R,S,R,tbtamr/fastqs/SRR21732245_1.fastq.gz,tbtamr/fastqs/SRR21732245_2.fastq.gz
+SRR21732059,mono_resistant,mono_resistant,S,R,S,S,tbtamr/fastqs/SRR21732059_1.fastq.gz,tbtamr/fastqs/SRR21732059_2.fastq.gz
+SRR21732378,mono_resistant,mono_resistant,S,R,S,S,tbtamr/fastqs/SRR21732378_1.fastq.gz,tbtamr/fastqs/SRR21732378_2.fastq.gz
+SRR26558637,poly_resistant,poly_resistant,R,R,R,R,tbtamr/fastqs/SRR26558637_1.fastq.gz,tbtamr/fastqs/SRR26558637_2.fastq.gz

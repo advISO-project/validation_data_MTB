@@ -1,0 +1,51 @@
+PILOT TERMINAL-MARKER OBSERVATION REPORT
+==========================================
+
+Generated at UTC: 2026-08-03T14:35:16.675850+00:00
+Alignment manifest: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/pilot/alignment/reports/pilot_alignment_manifest.csv
+Alignment manifest SHA-256: 5eed5b31071903613f4509498934a4ecb6ddba4d9399353f3bf0f0d80934606b
+Expectation table: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/pilot/barcode_expectations/pilot_expected_terminal_barcode_markers.tsv
+Expectation table SHA-256: f20dca6c5132d5f0bdd821719e9c06d89100b5b1de01bf298471e8c653483c6d
+Reference: /home/bntozini/ISO-IN-A-BOX/validation_data/references/reference/raw/NC_000962.3.fasta
+Reference SHA-256: a7ac0ccec9a03ceaca06f6b2ee06126f02e991e703800134f20811418c765809
+
+PILEUP FILTERS
+Minimum mapping quality: 20
+Minimum base quality: 20
+Low-depth threshold: 10
+Dominant-allele threshold: 0.9
+Mixed minor-allele threshold: 0.1
+
+OVERALL OBSERVATION COUNTS
+expected_allele_observed: 174
+reference_allele_observed: 0
+mixed_alleles: 0
+other_allele_observed: 0
+ambiguous_allele_observation: 0
+low_depth: 4
+no_coverage: 0
+
+PER-SAMPLE SUMMARY
+ERR4407550	1	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=49.5
+SRR5074126	1.1.1.1	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=93.0
+ERR2515740	2.2.2	markers=10	expected=9	reference=0	mixed=0	other=0	low_depth=1	no_coverage=0	median_depth=41.5
+ERR2514772	3	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=57.0
+ERR2514811	3.1.2	markers=6	expected=6	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=62.0
+ERR2512404	3.1.2.1	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=143.0
+SRR4033122	4.1.2	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=74.5
+ERR760853	4.1.2.1.1	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=134.5
+ERR5917693	4.2.1.1	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=66.0
+SRR4035842	4.4.1.1.1	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=34.0
+ERR11050065	4.6.5	markers=8	expected=8	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=154.5
+SRR24061601	5.1.3	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=81.0
+ERR3170402	5.3	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=77.0
+ERR3170479	6	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=93.5
+ERR400415	7	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=124.5
+SRR1173725	8	markers=10	expected=7	reference=0	mixed=0	other=0	low_depth=3	no_coverage=0	median_depth=15.0
+ERR11050611	9	markers=10	expected=10	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=55.5
+ERR4769514	La1.3	markers=4	expected=4	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=13.0
+ERR10430692	La2	markers=5	expected=5	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=136.0
+SRR16058369	La3	markers=5	expected=5	reference=0	mixed=0	other=0	low_depth=0	no_coverage=0	median_depth=49.0
+
+NOTE
+Observation statuses are descriptive only. No confirmation, review, or rejection rule was applied.

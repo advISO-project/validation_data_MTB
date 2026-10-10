@@ -1,0 +1,40 @@
+Contamination SRA/ENA metadata retrieval report
+================================================
+
+BioProject: PRJNA706121
+Source: ENA Portal API
+
+Runs retrieved: 1200
+Unique run accessions: 1200
+Duplicate run accessions: 0
+Missing run accessions: 0
+
+sample_alias populated: 1200/1200
+sample_title populated: 1200/1200
+sample_description populated: 1200/1200
+experiment_alias populated: 1200/1200
+experiment_title populated: 1200/1200
+
+Library layout
+------------------------------
+library_layout
+PAIRED    1200
+
+Instrument platform
+------------------------------
+instrument_platform
+ILLUMINA    1200
+
+Example records
+------------------------------
+run_accession sample_accession                                       sample_alias experiment_alias                                               experiment_title
+  SRR13837419     SAMN18118257   COV30-FASTA43-MCOV30-CONTHsap-CPER5-SEED13867169       ID13867169 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837422     SAMN18118254   COV30-FASTA40-MCOV30-CONTHsap-CPER1-SEED95477717       ID95477717 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837431     SAMN18118246   COV30-FASTA34-MCOV30-CONTMix2-CPER1-SEED71911142       ID71911142 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837432     SAMN18118245 COV30-FASTA34-MCOV30-CONTMabs-CPER5-SEED1532530378     ID1532530378 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837433     SAMN18118244 COV30-FASTA33-MCOV30-CONTMix1-CPER3-SEED3144727864     ID3144727864 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837436     SAMN18118242 COV30-FASTA31-MCOV30-CONTSepi-CPER2-SEED1742328453     ID1742328453 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837437     SAMN18118241  COV30-FASTA31-MCOV30-CONTPaer-CPER2-SEED933917753      ID933917753 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837442     SAMN18118236 COV30-FASTA30-MCOV30-CONTMabs-CPER5-SEED2074728410     ID2074728410 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837446     SAMN18118233  COV30-FASTA29-MCOV30-CONTSepi-CPER1-SEED284783283      ID284783283 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth
+  SRR13837448     SAMN18118231 COV30-FASTA28-MCOV30-CONTNone-CPER0-SEED2039822832     ID2039822832 Illumina HiSeq 2500 sequencing: simulated culture at 30x depth

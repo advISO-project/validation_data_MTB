@@ -1,0 +1,33 @@
+Mixed-infection truth set construction report
+=============================================
+
+Source: mixed_infection/raw/sobkowiak2018_table1.html
+Primary evidence: Sobkowiak et al. 2018 Table 1
+Truth basis: known sample composition
+
+Total samples: 48
+Unique run accessions: 48
+
+Expected status:
+  mixed: 36
+  pure: 12
+
+Published major-strain proportions:
+  0.70: 12
+  0.90: 12
+  0.95: 12
+  1.00: 12
+
+Truth assignment policy:
+  0.70 -> mixed (expected minor proportion 0.30)
+  0.90 -> mixed (expected minor proportion 0.10)
+  0.95 -> mixed (expected minor proportion 0.05)
+  1.00 -> pure  (expected minor proportion 0.00)
+
+The computational-result columns reported in the
+2018 Table 1 were not used to assign expected status.
+
+Output: mixed_infection/reference_dataset/mixed_infection_truth_set.csv
+SHA256: 90d5f91603ea8eaf053c71d4f7fe487f1f1f78127a3b22e1b9bee2cda190e7dd
+
+STATUS: PASS

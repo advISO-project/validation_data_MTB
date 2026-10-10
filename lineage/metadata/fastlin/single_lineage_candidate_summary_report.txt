@@ -1,0 +1,84 @@
+SINGLE-LINEAGE CANDIDATE SUMMARY REPORT
+===========================================
+
+Input dataset: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/metadata/fastlin/single_lineage_candidates.csv
+Total candidate rows: 3039
+Unique candidate samples: 3039
+Exact lineage labels represented: 120
+Broad lineage groups represented: 12
+
+EXACT-LINEAGE REPRESENTATION
+Minimum candidates in an exact lineage: 1
+Maximum candidates in an exact lineage: 54
+Median candidates per exact lineage: 27.0
+
+BROAD-LINEAGE COUNTS
+4: 1327 candidates; 52 exact lineage labels; 43.666% of candidates
+1: 421 candidates; 16 exact lineage labels; 13.853% of candidates
+La1: 361 candidates; 15 exact lineage labels; 11.879% of candidates
+6: 286 candidates; 11 exact lineage labels; 9.411% of candidates
+5: 195 candidates; 9 exact lineage labels; 6.417% of candidates
+2: 170 candidates; 6 exact lineage labels; 5.594% of candidates
+3: 168 candidates; 6 exact lineage labels; 5.528% of candidates
+La2: 31 candidates; 1 exact lineage labels; 1.020% of candidates
+7: 27 candidates; 1 exact lineage labels; 0.888% of candidates
+9: 27 candidates; 1 exact lineage labels; 0.888% of candidates
+La3: 24 candidates; 1 exact lineage labels; 0.790% of candidates
+8: 2 candidates; 1 exact lineage labels; 0.066% of candidates
+
+RAREST EXACT LINEAGES
+1: 1
+6.2: 2
+8: 2
+2: 3
+4.2: 3
+4.6.2.1: 4
+La1.5: 4
+6: 5
+La1: 6
+La1.7.X-unk5: 7
+La1.8.X-unk6: 7
+5: 8
+La1.1: 9
+4.6.1: 10
+4.1.1: 11
+1.2.2: 15
+4.3.4: 15
+4.6.2: 15
+5.1.5: 15
+1.1: 19
+
+MOST COMMON EXACT LINEAGES
+1.2.2.2: 54
+2.2.1: 52
+6.1.3: 48
+4.2.2: 45
+4.6.1.1: 42
+La1.8.1: 42
+6.2.2: 39
+2.2.2: 38
+La1.3: 37
+4.1.1.1: 35
+La1.8.2: 35
+1.1.2: 34
+4.8: 33
+La1.7.1: 33
+La1.7.X-unk4: 33
+1.2.1.1: 32
+4.3.4.1: 32
+4.3.4.2: 32
+6.2.3: 32
+6.3.3: 31
+
+GROUPING RULES
+Numeric lineage labels are grouped using the first numerical component.
+Example: 4.3.4.2.1 -> broad lineage 4.
+La-prefixed lineage labels are grouped using the first La component.
+Example: La1.7.X-unk4 -> broad lineage La1.
+Labels that do not match either rule are retained as UNRESOLVED labels for manual review.
+
+UNRESOLVED GROUPING LABELS
+None
+
+NOTE
+This report describes candidate representation only. No samples were selected, downloaded, confirmed, or assigned final truth labels.

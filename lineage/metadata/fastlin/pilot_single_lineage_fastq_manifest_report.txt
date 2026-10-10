@@ -1,0 +1,37 @@
+PILOT SINGLE-LINEAGE FASTQ MANIFEST REPORT
+=============================================
+
+Generated at UTC: 2026-08-03T08:29:22.820309+00:00
+Input pilot: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/metadata/fastlin/pilot_single_lineage_candidates.csv
+Input SHA-256: 96ba2fcb49c9925da9a069ce12a5a6a7b60e153181ae1baf25611d3a6d9f1ddb
+Pilot rows: 20
+
+MANIFEST STATUS
+ready: 20
+review: 0
+excluded_nonpaired: 0
+unresolved: 0
+
+READY-SAMPLE BROAD-LINEAGE COUNTS
+1: 2
+2: 1
+3: 3
+4: 5
+5: 2
+6: 1
+7: 1
+8: 1
+9: 1
+La1: 1
+La2: 1
+La3: 1
+
+ESTIMATED DOWNLOAD SIZE
+Total bytes from ENA metadata: 6109511747
+Approximate GiB: 5.690
+
+SAMPLES REQUIRING REVIEW
+None
+
+NOTE
+This manifest resolves candidate pilot accessions to ENA file locations. It does not download files or confirm candidate lineage labels.

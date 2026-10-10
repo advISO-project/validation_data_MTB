@@ -1,0 +1,39 @@
+Lineage barcode reference build report
+======================================
+
+Generated at UTC: 2026-07-31T11:45:17.621639+00:00
+
+Inputs
+------
+TBDB barcode: references/tbdb/raw/barcode.bed
+TBDB commit: 618cf0ff5f22886971bd437929d2c49defa6c7bf
+TBDB SHA-256: 9c05673045615483890c0e31e65ddb9175ecdce7a22ac9a6868a840ae3f2a753
+Reference FASTA: references/reference/raw/NC_000962.3.fasta
+Reference accession: NC_000962.3
+Reference length: 4411532
+Reference SHA-256: a7ac0ccec9a03ceaca06f6b2ee06126f02e991e703800134f20811418c765809
+
+Output
+------
+Canonical barcode table: references/tbdb/processed/lineage_barcode_reference.tsv
+
+Build summary
+-------------
+Total markers: 1111
+Unique positions: 1111
+Positions represented by multiple markers: 0
+Unique normalised lineage labels: 126
+Marker allele matches reference: 20
+Marker allele differs from reference: 1091
+Duplicate marker records: 0
+
+Validation status
+-----------------
+PASS
+
+Notes
+-----
+BED intervals were interpreted as zero-based, half-open coordinates.
+The one-based position was calculated as start_0based + 1.
+The TBDB allele is retained as marker_allele and is not automatically assumed to be an alternate allele.
+No sample lineage classifications were made during this build.

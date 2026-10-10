@@ -1,0 +1,21 @@
+sample_id	candidate_lineage	candidate_broad_lineage	expected_marker_count	expected_allele_observed	callable_marker_count	callable_marker_fraction	expected_marker_support_fraction	low_depth	no_coverage	non_callable_marker_count	non_callable_marker_ids	reference_allele_observed	other_allele_observed	mixed_alleles	ambiguous_allele_observation	conflicting_marker_count	median_depth	minimum_depth	maximum_depth	mean_expected_allele_fraction	truth_candidate_status	decision_reason	terminal_confirmation_scope	terminal_confirmation_policy_version
+ERR4407550	1	1	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	49.5	28	60	0.9904707	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+SRR5074126	1.1.1.1	1	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	93.0	70	155	0.9990291	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR2515740	2.2.2	2	10	9	9	0.9	0.9	1	0	1	TBDB0939	0	0	0	0	0	41.5	2	56	0.9967742	confirmed_low_depth	1_low_depth_marker	exact_candidate_lineage_only	1.0
+ERR2514772	3	3	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	57.0	36	75	1.0	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR2514811	3.1.2	3	6	6	6	1.0	1.0	0	0	0		0	0	0	0	0	62.0	40	89	0.997619	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR2512404	3.1.2.1	3	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	143.0	120	168	1.0	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+SRR4033122	4.1.2	4	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	74.5	56	99	0.9965888	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR760853	4.1.2.1.1	4	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	134.5	86	223	0.998253	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR5917693	4.2.1.1	4	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	66.0	51	88	1.0	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+SRR4035842	4.4.1.1.1	4	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	34.0	22	42	0.9835484	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR11050065	4.6.5	4	8	8	8	1.0	1.0	0	0	0		0	0	0	0	0	154.5	111	224	0.998991875	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+SRR24061601	5.1.3	5	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	81.0	53	119	0.9989899	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR3170402	5.3	5	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	77.0	65	106	0.9975303	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR3170479	6	6	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	93.5	62	120	0.9948976	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR400415	7	7	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	124.5	47	169	0.9948803	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+SRR1173725	8	8	10	7	7	0.7	0.7	3	0	3	TBDB0123;TBDB0198;TBDB0203	0	0	0	0	0	15.0	8	29	0.9745299	confirmed_low_depth	3_low_depth_marker	exact_candidate_lineage_only	1.0
+ERR11050611	9	9	10	10	10	1.0	1.0	0	0	0		0	0	0	0	0	55.5	40	70	1.0	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR4769514	La1.3	La1	4	4	4	1.0	1.0	0	0	0		0	0	0	0	0	13.0	11	28	1.0	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+ERR10430692	La2	La2	5	5	5	1.0	1.0	0	0	0		0	0	0	0	0	136.0	127	160	1.0	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0
+SRR16058369	La3	La3	5	5	5	1.0	1.0	0	0	0		0	0	0	0	0	49.0	22	62	0.9925926	confirmed	all_terminal_markers_supported	exact_candidate_lineage_only	1.0

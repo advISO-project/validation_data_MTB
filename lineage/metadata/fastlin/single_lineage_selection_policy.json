@@ -1,0 +1,17 @@
+{
+  "input": "/home/bntozini/ISO-IN-A-BOX/validation_data/lineage/metadata/fastlin/single_lineage_candidates.csv",
+  "input_sha256": "07f2f66fd0ab392d41edf368c72bb6c3a408801b69784ab3d375c5d5724cad69",
+  "random_seed": 42,
+  "stage1_policy": {
+    "1": 1,
+    "2-5": "all",
+    "6-20": 5,
+    ">20": 10
+  },
+  "pilot_size": 20,
+  "pilot_policy": [
+    "select one candidate per broad lineage",
+    "fill remaining slots using previously unrepresented exact lineages",
+    "allow duplicate exact lineages only when unique exact lineages are exhausted"
+  ]
+}

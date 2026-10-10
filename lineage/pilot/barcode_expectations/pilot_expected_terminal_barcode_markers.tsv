@@ -1,0 +1,179 @@
+sample_id	candidate_lineage	candidate_broad_lineage	supporting_lineage_level	marker_scope	marker_id	position_1based	reference_accession	reference_allele	expected_marker_allele	marker_broad_lineage
+ERR10430692	La2	La2	La2	terminal_lineage_only	TBDB0759	2194204	NC_000962.3	A	G	M.caprae
+ERR10430692	La2	La2	La2	terminal_lineage_only	TBDB0795	2382830	NC_000962.3	C	A	M.caprae
+ERR10430692	La2	La2	La2	terminal_lineage_only	TBDB0851	2701538	NC_000962.3	G	A	M.caprae
+ERR10430692	La2	La2	La2	terminal_lineage_only	TBDB0857	2731555	NC_000962.3	A	C	M.caprae
+ERR10430692	La2	La2	La2	terminal_lineage_only	TBDB0265	533328	NC_000962.3	C	A	M.caprae
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0492	1147708	NC_000962.3	G	A	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0542	1331187	NC_000962.3	G	C	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0548	1358197	NC_000962.3	C	T	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0590	1498304	NC_000962.3	A	C	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0607	1553876	NC_000962.3	C	G	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0091	155555	NC_000962.3	C	T	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0622	1581704	NC_000962.3	G	C	Euro-American
+ERR11050065	4.6.5	4	4.6.5	terminal_lineage_only	TBDB0014	17665	NC_000962.3	G	A	Euro-American
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0084	143535	NC_000962.3	C	T	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0121	219755	NC_000962.3	G	T	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0129	230258	NC_000962.3	C	T	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0866	2750052	NC_000962.3	G	A	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0931	3094577	NC_000962.3	G	A	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0977	3370805	NC_000962.3	G	C	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0984	3414553	NC_000962.3	G	A	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB1027	3855303	NC_000962.3	G	A	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0328	693521	NC_000962.3	G	T	Lineage 9
+ERR11050611	9	9	9	terminal_lineage_only	TBDB0062	97898	NC_000962.3	C	T	Lineage 9
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0454	1038108	NC_000962.3	C	G	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0515	1237818	NC_000962.3	C	G	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0724	2020120	NC_000962.3	C	T	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0757	2185538	NC_000962.3	G	A	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0772	2245499	NC_000962.3	C	T	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0777	2271143	NC_000962.3	G	A	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0999	3557911	NC_000962.3	C	T	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB1047	4053713	NC_000962.3	C	G	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0368	791671	NC_000962.3	T	C	East-African-Indian
+ERR2512404	3.1.2.1	3	3.1.2.1	terminal_lineage_only	TBDB0430	961598	NC_000962.3	C	G	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0006	12204	NC_000962.3	G	A	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0574	1450316	NC_000962.3	C	T	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0665	1764225	NC_000962.3	C	T	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0711	1925136	NC_000962.3	G	A	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0860	2738221	NC_000962.3	G	A	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0873	2782498	NC_000962.3	G	A	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0194	342873	NC_000962.3	C	T	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB1107	4396495	NC_000962.3	C	A	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0315	652950	NC_000962.3	T	C	East-African-Indian
+ERR2514772	3	3	3	terminal_lineage_only	TBDB0050	69984	NC_000962.3	C	A	East-African-Indian
+ERR2514811	3.1.2	3	3.1.2	terminal_lineage_only	TBDB0707	1914217	NC_000962.3	C	A	East-African-Indian
+ERR2514811	3.1.2	3	3.1.2	terminal_lineage_only	TBDB0856	2729454	NC_000962.3	C	T	East-African-Indian
+ERR2514811	3.1.2	3	3.1.2	terminal_lineage_only	TBDB0028	34605	NC_000962.3	C	A	East-African-Indian
+ERR2514811	3.1.2	3	3.1.2	terminal_lineage_only	TBDB1018	3722702	NC_000962.3	G	C	East-African-Indian
+ERR2514811	3.1.2	3	3.1.2	terminal_lineage_only	TBDB1058	4132949	NC_000962.3	C	T	East-African-Indian
+ERR2514811	3.1.2	3	3.1.2	terminal_lineage_only	TBDB0440	993016	NC_000962.3	G	A	East-African-Indian
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0594	1511460	NC_000962.3	C	T	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0089	154990	NC_000962.3	G	T	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0616	1565566	NC_000962.3	C	T	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0135	252900	NC_000962.3	C	T	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0843	2640807	NC_000962.3	G	A	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0163	294596	NC_000962.3	T	G	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0939	3147511	NC_000962.3	T	G	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0201	346693	NC_000962.3	G	T	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0230	449194	NC_000962.3	G	A	East-Asian (Beijing)
+ERR2515740	2.2.2	2	2.2.2	terminal_lineage_only	TBDB0421	917596	NC_000962.3	C	A	East-Asian (Beijing)
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0444	1011206	NC_000962.3	C	G	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0446	1014722	NC_000962.3	C	T	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0456	1049905	NC_000962.3	C	T	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0474	1107320	NC_000962.3	G	A	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0493	1153214	NC_000962.3	G	A	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0128	225657	NC_000962.3	G	A	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0140	261628	NC_000962.3	G	C	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0912	2940052	NC_000962.3	G	A	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0259	511350	NC_000962.3	G	A	West-Africa 1
+ERR3170402	5.3	5	5.3	terminal_lineage_only	TBDB0358	771654	NC_000962.3	A	G	West-Africa 1
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0464	1069146	NC_000962.3	C	T	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0557	1372002	NC_000962.3	C	T	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0676	1811964	NC_000962.3	C	A	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0687	1867707	NC_000962.3	C	T	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0886	2847737	NC_000962.3	G	A	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0948	3213255	NC_000962.3	C	T	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB1028	3862148	NC_000962.3	G	A	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB1054	4086697	NC_000962.3	G	T	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB1076	4236891	NC_000962.3	C	A	West-Africa 2
+ERR3170479	6	6	6	terminal_lineage_only	TBDB0436	982363	NC_000962.3	G	T	West-Africa 2
+ERR400415	7	7	7	terminal_lineage_only	TBDB0480	1125894	NC_000962.3	A	C	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0489	1137518	NC_000962.3	G	A	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0532	1297084	NC_000962.3	G	A	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0555	1365895	NC_000962.3	G	A	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0581	1463776	NC_000962.3	C	T	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0613	1561245	NC_000962.3	C	T	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0204	349081	NC_000962.3	G	A	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0365	784143	NC_000962.3	A	C	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0377	811642	NC_000962.3	C	T	Lineage 7
+ERR400415	7	7	7	terminal_lineage_only	TBDB0413	896431	NC_000962.3	G	A	Lineage 7
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0612	1560912	NC_000962.3	G	A	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0625	1590555	NC_000962.3	C	T	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0147	272678	NC_000962.3	C	T	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0901	2897528	NC_000962.3	G	A	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0197	344288	NC_000962.3	C	G	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0301	615938	NC_000962.3	G	A	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0312	646531	NC_000962.3	A	T	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0376	811492	NC_000962.3	C	G	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0379	812502	NC_000962.3	C	T	Indo-Oceanic
+ERR4407550	1	1	1	terminal_lineage_only	TBDB0394	865761	NC_000962.3	C	T	Indo-Oceanic
+ERR4769514	La1.3	La1	La1.3	terminal_lineage_only	TBDB0020	23297	NC_000962.3	G	T	M.bovis
+ERR4769514	La1.3	La1	La1.3	terminal_lineage_only	TBDB0953	3244324	NC_000962.3	A	G	M.bovis
+ERR4769514	La1.3	La1	La1.3	terminal_lineage_only	TBDB1068	4193069	NC_000962.3	G	A	M.bovis
+ERR4769514	La1.3	La1	La1.3	terminal_lineage_only	TBDB0043	67076	NC_000962.3	C	T	M.bovis
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0478	1115796	NC_000962.3	C	A	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0597	1526839	NC_000962.3	G	A	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0645	1652216	NC_000962.3	A	G	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0647	1660440	NC_000962.3	G	A	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0114	211576	NC_000962.3	C	A	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0245	481569	NC_000962.3	G	A	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0310	638212	NC_000962.3	G	T	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0374	806605	NC_000962.3	C	T	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0398	870187	NC_000962.3	C	T	Euro-American (TUR)
+ERR5917693	4.2.1.1	4	4.2.1.1	terminal_lineage_only	TBDB0415	899319	NC_000962.3	C	G	Euro-American (TUR)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0450	1025614	NC_000962.3	G	T	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0468	1082983	NC_000962.3	G	A	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0068	112958	NC_000962.3	G	A	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0656	1701477	NC_000962.3	C	G	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0691	1877862	NC_000962.3	G	T	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0820	2488724	NC_000962.3	C	G	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0137	255225	NC_000962.3	G	A	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0842	2640369	NC_000962.3	G	A	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB1110	4404313	NC_000962.3	G	A	Euro-American (Haarlem)
+ERR760853	4.1.2.1.1	4	4.1.2.1.1	terminal_lineage_only	TBDB0350	740855	NC_000962.3	G	C	Euro-American (Haarlem)
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0507	1227518	NC_000962.3	G	A	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0123	221190	NC_000962.3	G	T	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0146	270362	NC_000962.3	C	A	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0196	343314	NC_000962.3	C	T	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0198	344414	NC_000962.3	G	C	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0203	347977	NC_000962.3	A	C	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0227	442072	NC_000962.3	C	A	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0351	742270	NC_000962.3	G	T	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0411	896152	NC_000962.3	C	T	Lineage 8
+SRR1173725	8	8	8	terminal_lineage_only	TBDB0418	903262	NC_000962.3	C	A	Lineage 8
+SRR16058369	La3	La3	La3	terminal_lineage_only	TBDB0189	327232	NC_000962.3	A	C	M.orygis
+SRR16058369	La3	La3	La3	terminal_lineage_only	TBDB0981	3396569	NC_000962.3	G	A	M.orygis
+SRR16058369	La3	La3	La3	terminal_lineage_only	TBDB1002	3577779	NC_000962.3	G	A	M.orygis
+SRR16058369	La3	La3	La3	terminal_lineage_only	TBDB1019	3770449	NC_000962.3	G	A	M.orygis
+SRR16058369	La3	La3	La3	terminal_lineage_only	TBDB1023	3830348	NC_000962.3	G	C	M.orygis
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0535	1301571	NC_000962.3	C	T	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0010	13529	NC_000962.3	G	A	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0566	1434319	NC_000962.3	A	T	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0611	1560777	NC_000962.3	G	A	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0662	1741100	NC_000962.3	G	A	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0702	1903547	NC_000962.3	C	T	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0100	191218	NC_000962.3	G	C	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0130	231261	NC_000962.3	G	A	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0132	240754	NC_000962.3	T	G	West-Africa 1
+SRR24061601	5.1.3	5	5.1.3	terminal_lineage_only	TBDB0815	2478058	NC_000962.3	G	T	West-Africa 1
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0477	1111925	NC_000962.3	A	G	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0494	1153676	NC_000962.3	C	G	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0738	2066633	NC_000962.3	C	G	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0940	3147742	NC_000962.3	A	G	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0223	435190	NC_000962.3	C	T	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0228	443277	NC_000962.3	A	C	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0229	446165	NC_000962.3	G	C	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0387	832708	NC_000962.3	A	C	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0055	83842	NC_000962.3	G	A	Euro-American
+SRR4033122	4.1.2	4	4.1.2	terminal_lineage_only	TBDB0406	891756	NC_000962.3	A	G	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0481	1126895	NC_000962.3	G	A	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0505	1221479	NC_000962.3	C	T	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0514	1234999	NC_000962.3	G	A	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0544	1335913	NC_000962.3	C	G	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0079	135695	NC_000962.3	C	A	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0012	15036	NC_000962.3	C	G	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0685	1853674	NC_000962.3	G	A	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0112	208710	NC_000962.3	C	A	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0232	455759	NC_000962.3	T	G	Euro-American
+SRR4035842	4.4.1.1.1	4	4.4.1.1.1	terminal_lineage_only	TBDB0047	68688	NC_000962.3	C	T	Euro-American
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0476	1111469	NC_000962.3	C	T	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0556	1369927	NC_000962.3	C	T	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0596	1526100	NC_000962.3	A	G	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0663	1750465	NC_000962.3	T	C	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0782	2311357	NC_000962.3	G	A	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0784	2326192	NC_000962.3	C	T	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0798	2412584	NC_000962.3	G	A	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0812	2470934	NC_000962.3	C	A	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0920	2994964	NC_000962.3	C	T	Indo-Oceanic
+SRR5074126	1.1.1.1	1	1.1.1.1	terminal_lineage_only	TBDB0388	851797	NC_000962.3	C	A	Indo-Oceanic

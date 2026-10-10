@@ -1,0 +1,3 @@
+truth_candidate_status,sample_count,broad_lineage_count,exact_lineage_count,sample_percentage
+confirmed,18,10,18,90.0
+confirmed_low_depth,2,2,2,10.0

@@ -1,0 +1,108 @@
+name: tbtamr_current_study_amr_validation_set
+description: Paired-end FASTQ collection for the tbtAMR current-study AMR validation
+  reference panel
+version: 1.0.0
+samples:
+  class: Collection
+  collection_type: list:pair
+  elements:
+  - class: Collection
+    collection_type: pair
+    identifier: SRR26558644
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR26558644_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR26558644_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732546
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732546_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732546_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732097
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732097_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732097_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732756
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732756_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732756_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21733120
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21733120_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21733120_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732933
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732933_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732933_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732245
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732245_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732245_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732059
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732059_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732059_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR21732378
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR21732378_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR21732378_2.fastq.gz
+  - class: Collection
+    collection_type: pair
+    identifier: SRR26558637
+    elements:
+    - class: File
+      identifier: forward
+      path: tbtamr/fastqs/SRR26558637_1.fastq.gz
+    - class: File
+      identifier: reverse
+      path: tbtamr/fastqs/SRR26558637_2.fastq.gz

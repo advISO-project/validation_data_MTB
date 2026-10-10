@@ -1,0 +1,38 @@
+Mixed-infection validation manifest report
+==========================================
+
+Truth input: mixed_infection/reference_dataset/mixed_infection_truth_set.csv
+ENA input: mixed_infection/metadata/mixed_infection_ena_metadata.tsv
+
+Truth records: 48
+ENA records: 48
+Joined records: 48
+
+Missing from ENA: 0
+Unexpected in ENA: 0
+
+Expected status:
+  mixed: 36
+  pure: 12
+
+Published major-strain proportions:
+  0.70: 12
+  0.90: 12
+  0.95: 12
+  1.00: 12
+
+Study accession: PRJEB2794
+Library layout: PAIRED
+
+Unique sample accessions: 48
+Unique experiment accessions: 48
+
+FASTQ metadata:
+  paired FASTQ sets: 48
+  FASTQ files represented: 96
+  expected download size: 23.00 GiB
+
+Output: mixed_infection/reference_dataset/mixed_infection_validation_manifest.csv
+SHA256: c75eb492aad15609bdf1ae6b877306f0ddd27534fe5150d5f8ca91713bec9214
+
+STATUS: PASS

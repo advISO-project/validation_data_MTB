@@ -1,0 +1,15 @@
+resource_name: TBDB lineage barcode
+source_repository: https://github.com/jodyphelan/tbdb
+source_file: barcode.bed
+git_branch: "master"
+git_commit: "618cf0ff5f22886971bd437929d2c49defa6c7bf"
+git_commit_date: "2026-03-11T19:33:35+01:00"
+download_date: "2026-07-31T12:46:18+02:00"
+raw_file: "references/tbdb/raw/barcode.bed"
+sha256: "9c05673045615483890c0e31e65ddb9175ecdce7a22ac9a6868a840ae3f2a753"
+raw_row_count: 1111
+coordinate_format: BED
+coordinate_system: 0-based half-open
+reference_genome: to_be_verified
+reference_accession: to_be_verified
+processing_status: raw_source_frozen

@@ -1,0 +1,11 @@
+Sample_ID,R1,R2,R1_size_bytes,R2_size_bytes,Status,Error
+SRR26558644,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR26558644_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR26558644_2.fastq.gz,163173282,163185287,already_present,
+SRR21732546,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732546_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732546_2.fastq.gz,176766571,177013610,downloaded,
+SRR21732097,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732097_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732097_2.fastq.gz,276634518,277700720,downloaded,
+SRR21732756,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732756_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732756_2.fastq.gz,380219764,374431403,downloaded,
+SRR21733120,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21733120_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21733120_2.fastq.gz,168857384,169741180,downloaded,
+SRR21732933,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732933_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732933_2.fastq.gz,188451446,187289171,downloaded,
+SRR21732245,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732245_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732245_2.fastq.gz,186770930,188901469,downloaded,
+SRR21732059,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732059_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732059_2.fastq.gz,275963505,277630513,downloaded,
+SRR21732378,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732378_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR21732378_2.fastq.gz,418675402,411121722,downloaded,
+SRR26558637,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR26558637_1.fastq.gz,/home/bntozini/ISO-IN-A-BOX/validation_data/tbtamr/fastqs/SRR26558637_2.fastq.gz,110510839,110450347,already_present,

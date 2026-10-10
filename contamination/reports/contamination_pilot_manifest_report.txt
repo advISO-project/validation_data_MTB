@@ -1,0 +1,81 @@
+Contamination pilot manifest report
+========================================
+
+Master manifest: /home/bntozini/ISO-IN-A-BOX/validation_data/contamination/reference_dataset/contamination_validation_manifest.csv
+Pilot samples selected: 30
+
+Selection design
+----------------------------------------
+5 samples at each contamination level from 0% to 5%.
+Contaminated samples selected to maximise contaminant-code diversity within each level and balance contaminant-code representation across the complete pilot panel.
+
+Samples by contamination percentage
+----------------------------------------
+contamination_percent
+0    5
+1    5
+2    5
+3    5
+4    5
+5    5
+
+Samples by contaminant code
+----------------------------------------
+contaminant_code
+Hsap    3
+Mabs    4
+Mavi    3
+Mint    4
+Mix1    3
+Mix2    2
+None    5
+Paer    3
+Sepi    3
+
+Contaminant code x contamination percentage
+----------------------------------------
+contamination_percent  0  1  2  3  4  5
+contaminant_code
+Hsap                   0  1  1  0  0  1
+Mabs                   0  1  0  1  1  1
+Mavi                   0  0  1  0  1  1
+Mint                   0  0  1  1  1  1
+Mix1                   0  1  1  0  1  0
+Mix2                   0  0  1  1  0  0
+None                   5  0  0  0  0  0
+Paer                   0  1  0  1  0  1
+Sepi                   0  1  0  1  1  0
+
+Selected samples
+----------------------------------------
+                                  source_sample_id run_accession  contamination_percent contaminant_code
+COV50-FASTA10-MCOV50-CONTNone-CPER0-SEED1685314850   SRR13837971                      0             None
+COV50-FASTA13-MCOV50-CONTNone-CPER0-SEED2401727905   SRR13837966                      0             None
+COV50-FASTA23-MCOV50-CONTNone-CPER0-SEED3042531143   SRR13837942                      0             None
+COV50-FASTA31-MCOV50-CONTNone-CPER0-SEED2939115560   SRR13837922                      0             None
+  COV50-FASTA33-MCOV50-CONTNone-CPER0-SEED71068188   SRR13837918                      0             None
+ COV50-FASTA37-MCOV50-CONTHsap-CPER1-SEED884613343   SRR13837911                      1             Hsap
+COV50-FASTA10-MCOV50-CONTMabs-CPER1-SEED2379819403   SRR13837973                      1             Mabs
+ COV50-FASTA19-MCOV50-CONTMix1-CPER1-SEED217797365   SRR13837959                      1             Mix1
+COV50-FASTA12-MCOV50-CONTPaer-CPER1-SEED2983624098   SRR13837968                      1             Paer
+COV50-FASTA18-MCOV50-CONTSepi-CPER1-SEED1976328755   SRR13837960                      1             Sepi
+COV50-FASTA21-MCOV50-CONTHsap-CPER2-SEED1553314594   SRR13837953                      2             Hsap
+ COV50-FASTA26-MCOV50-CONTMavi-CPER2-SEED126514076   SRR13837934                      2             Mavi
+COV50-FASTA17-MCOV50-CONTMint-CPER2-SEED1808231761   SRR13837962                      2             Mint
+  COV50-FASTA12-MCOV50-CONTMix1-CPER2-SEED32548638   SRR13837969                      2             Mix1
+ COV50-FASTA19-MCOV50-CONTMix2-CPER2-SEED108824313   SRR13837958                      2             Mix2
+ COV50-FASTA40-MCOV50-CONTMabs-CPER3-SEED136722547   SRR13837904                      3             Mabs
+  COV50-FASTA16-MCOV50-CONTMint-CPER3-SEED26969834   SRR13837965                      3             Mint
+ COV50-FASTA19-MCOV50-CONTMix2-CPER3-SEED312725164   SRR13837957                      3             Mix2
+ COV50-FASTA12-MCOV50-CONTPaer-CPER3-SEED237603340   SRR13837967                      3             Paer
+ COV50-FASTA23-MCOV50-CONTSepi-CPER3-SEED912614444   SRR13837940                      3             Sepi
+ COV50-FASTA2-MCOV50-CONTMabs-CPER4-SEED1325417557   SRR13837928                      4             Mabs
+COV50-FASTA21-MCOV50-CONTMavi-CPER4-SEED3151119952   SRR13837951                      4             Mavi
+COV50-FASTA16-MCOV50-CONTMint-CPER4-SEED1810611816   SRR13837964                      4             Mint
+ COV50-FASTA22-MCOV50-CONTMix1-CPER4-SEED868223346   SRR13837947                      4             Mix1
+ COV50-FASTA2-MCOV50-CONTSepi-CPER4-SEED3019813666   SRR13837925                      4             Sepi
+COV50-FASTA12-MCOV50-CONTHsap-CPER5-SEED2129014786   SRR13837970                      5             Hsap
+ COV50-FASTA10-MCOV50-CONTMabs-CPER5-SEED123331032   SRR13837972                      5             Mabs
+ COV50-FASTA25-MCOV50-CONTMavi-CPER5-SEED641412993   SRR13837938                      5             Mavi
+  COV50-FASTA1-MCOV50-CONTMint-CPER5-SEED765120674   SRR13837955                      5             Mint
+ COV50-FASTA2-MCOV50-CONTPaer-CPER5-SEED2996731647   SRR13837926                      5             Paer

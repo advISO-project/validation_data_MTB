@@ -1,0 +1,30 @@
+Mixed-infection ENA metadata retrieval report
+=============================================
+
+Input truth set: mixed_infection/reference_dataset/mixed_infection_truth_set.csv
+Retrieved UTC: 2026-09-17T10:20:30.738397+00:00
+
+Requested accessions: 48
+ENA records retrieved: 48
+Unique ENA run accessions: 48
+Missing requested accessions: 0
+Unexpected accessions: 0
+
+Study accessions:
+  PRJEB2794: 48
+
+Library layout:
+  PAIRED: 48
+
+Instrument platform:
+  ILLUMINA: 48
+
+Instrument model:
+  Illumina HiSeq 2000: 48
+
+Records without FASTQ links: 0
+
+Output: mixed_infection/metadata/mixed_infection_ena_metadata.tsv
+SHA256: 76891741672c943fcbeedb85e6953e5441351b754eb4d0b66eb6c5afcceaff6f
+
+STATUS: PASS

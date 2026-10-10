@@ -1,8 +1,43 @@
-tbtamr/fastqs/
+# ============================================
+# ISO-IN-A-BOX MTB VALIDATION DATA
+# ============================================
 
-
-# Large sequencing files
+# Raw sequencing data
+fastqs/
+*.fastq
 *.fastq.gz
+*.fq
 *.fq.gz
-lineage/fastqs/
-tbtamr/fastqs/
+*.part
+
+# Legacy files
+legacy/
+
+# Alignment data
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Generated alignment files
+lineage/pilot/alignment/logs/
+lineage/pilot/alignment/reference/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# External TB database repository clone
+references/tbdb/repository/

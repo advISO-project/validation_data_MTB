@@ -1,0 +1,26 @@
+{
+  "policy_name": "terminal_lineage_confirmation",
+  "policy_version": "1.0",
+  "confirmation_scope": "exact_candidate_lineage_only",
+  "input_observations": "/home/bntozini/ISO-IN-A-BOX/validation_data/lineage/pilot/barcode_observations/pilot_terminal_marker_observations.tsv",
+  "input_observations_sha256": "ae5cfab7f515b80b993cf48a127b96273c6842b06c1ce5fb77b4458b3f0fba18",
+  "input_summary": "/home/bntozini/ISO-IN-A-BOX/validation_data/lineage/pilot/barcode_observations/pilot_terminal_marker_observation_summary.csv",
+  "input_summary_sha256": "3101a5c730b79d5fc91d813580acaccab170bc349b521284ed0ed84ca2aa4b28",
+  "status_precedence": [
+    "rejected",
+    "review",
+    "confirmed_low_depth",
+    "confirmed"
+  ],
+  "rules": {
+    "rejected": "reference_allele_observed > 0 OR other_allele_observed > 0",
+    "review": "mixed_alleles > 0 OR ambiguous_allele_observation > 0 OR callable_marker_count != expected_allele_observed",
+    "confirmed_low_depth": "all callable markers support expected allele; no conflicts; low_depth + no_coverage > 0",
+    "confirmed": "all expected terminal markers support expected allele; no non-callable or conflicting markers"
+  },
+  "notes": [
+    "The status field records the decision; evidence counts and marker identifiers are stored in separate columns.",
+    "Low-depth and uncovered markers are non-callable evidence, not contradictory evidence.",
+    "Ancestral-path markers are not evaluated."
+  ]
+}

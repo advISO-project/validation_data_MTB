@@ -1,0 +1,15 @@
+Resource: Sobkowiak et al. 2018 Table 1
+Article title: Identifying mixed Mycobacterium tuberculosis infections from whole genome sequence data
+Journal: BMC Genomics
+Year: 2018
+Volume: 19
+Article: 613
+DOI: 10.1186/s12864-018-4988-z
+PMCID: PMC6092779
+PMID: 30107785
+Table: Table 1
+Source URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6092779/table/Tab1/
+Retrieved UTC: 2026-09-17T10:15:21.772056+00:00
+Raw file: mixed_infection/raw/sobkowiak2018_table1.html
+SHA256: 363e63d353fa2d66bb2aa3ab51196a2e4a3b442f2e394d2cdb4af18e44c1936f
+Purpose: Published source resource for construction of the mixed-infection validation truth dataset.

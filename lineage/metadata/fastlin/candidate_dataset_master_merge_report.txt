@@ -1,0 +1,33 @@
+FASTLIN / TB-PROFILER MERGE REPORT
+=======================================
+
+Input workbook: /home/bntozini/ISO-IN-A-BOX/validation_data/lineage/metadata/fastlin/Supplementary_material_1.xlsx
+TB-Profiler sheet: TB-profiler all
+fastlin sheet: fastlin default - 3139 SRA
+
+INPUT COUNTS
+TB-Profiler rows: 3241
+fastlin rows: 3139
+Master rows after outer merge: 3241
+
+DATASET PRESENCE
+both: 3139
+tbprofiler_only: 102
+fastlin_only: 0
+
+LINEAGE COMPARISON
+exact_agreement: 3039
+disagreement: 89
+tbprofiler_no_call: 8
+fastlin_no_call: 1
+both_no_call: 2
+tbprofiler_only: 102
+fastlin_only: 0
+
+DESCRIPTIVE COUNTS
+fastlin mixture=yes: 44
+TB-Profiler multiple-lineage rows: 23
+fastlin multiple-lineage rows: 44
+
+NOTE
+No samples were filtered and no truth labels were assigned. The comparison fields are descriptive only.
