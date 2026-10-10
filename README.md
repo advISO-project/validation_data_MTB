@@ -1,245 +1,259 @@
-# validation_tuberculosis
+# *Mycobacterium Tuberculosis* (MTB) Bioinformatics Workflow Validation Datasets
 
-Validation resources for testing and validating *Mycobacterium tuberculosis* (MTB) bioinformatics workflows as part of the advISO (Advancing Bioinformatics through ISO Accreditation) project.
+This repository contains curated reference datasets, validation manifests, supporting metadata, reproducible scripts, and documentation for evaluating *Mycobacterium tuberculosis* (MTB) bioinformatics workflows.
 
-## Background
+The work forms part of the advISO project, which aims to support the development, validation, and implementation of quality-assured bioinformatics workflows in clinical and public health laboratories.
 
-ISO standards such as ISO 15189 and ISO 17025 require laboratories to demonstrate that analytical methods are fit for purpose. While these standards are well established in clinical and diagnostic laboratories, practical resources for validating pathogen bioinformatics workflows remain limited.
+## 1. Background
 
-The aim of this repository is to provide a reproducible validation framework for MTB genomic analysis workflows. This includes curated validation datasets, truth sets, validation procedures, and workflow documentation that can be used to assess workflow performance and support quality assurance activities.
+Clinical bioinformatics workflows require documented evidence that they are suitable for their intended use. International standards, including ISO 15189, provide a framework for evaluating analytical performance, reproducibility, traceability, and the management of changes to validated methods in laboratories.
 
-## Objectives
+This repository supports these requirements by developing structured, traceable validation datasets for MTB genomic analysis.
 
-The validation framework is designed to assess:
+The emphasis is on establishing reliable expected results, documenting dataset selection and processing, and providing reusable resources against which workflow outputs can be evaluated.
 
-* Antimicrobial resistance (AMR) prediction
-* Lineage assignment
-* Variant calling
-* Species determination
-* Detection of mixed or contaminated samples
-* End-to-end workflow reproducibility
+The repository provides validation resources; it does not, by itself, establish ISO accreditation or demonstrate that a particular workflow has met all validation acceptance criteria.
 
-## Core Validation Components
+## 2. Validation Objectives
 
-### AMR Validation
+The current work is organized around four validation objectives.
 
-Ensure genotype-to-phenotype mapping accurately predicts resistance.
+1. Antimicrobial resistance (AMR) prediction
+2. Lineage assignment
+3. Variant calling
+4. Species determination
+5. Detection of mixed or contaminated samples
+6. End-to-end workflow reproducibility
 
-Validation datasets include major first-line and second-line drugs:
+Each objective has its own data sources, selection methodology, reference datasets, scripts, and supporting documentation.
 
-* Rifampicin
-* Isoniazid
-* Ethambutol
-* Pyrazinamide
-* Fluoroquinolones
-* Bedaquiline
-* Linezolid
-* Additional drugs where validated data are available
-
-### Lineage Assignment
-
-Validate correct assignment to MTB lineages and sub-lineages.
-
-The framework aims to:
-
-* Verify lineage classification accuracy
-* Evaluate sub-lineage assignment
-* Detect mixed-lineage samples
-* Assess performance across diverse MTB populations
-
-### Variant Calling
-
-Evaluate detection of genomic variation including:
-
-* Single nucleotide polymorphisms (SNPs)
-* Insertions and deletions (indels)
-* Resistance-associated mutations
-* Genome-wide variant detection
-
-### Mixed / Contaminated Samples
-
-Assess workflow robustness when processing:
-
-* Mixed infections
-* Low-frequency variants
-* Contaminated datasets
-* Ambiguous lineage assignments
-
-### Species Determination
-
-Evaluate the ability to distinguish:
-
-* *Mycobacterium tuberculosis*
-* Animal-associated members of the MTB complex
-* Non-tuberculous mycobacteria (NTMs)
-
-## Repository Structure
+## 3. Repository Structure
 
 ```text
-workflow/
-    Workflow definitions and workflow documentation.
-
-validation_data/
-    Sample manifests, accession lists and metadata for validation datasets.
-
-truth_sets/
-    Curated reference datasets and expected results used for validation.
-
-docs/
-    Validation procedures, reports and supporting documentation.
-
-scripts/
-    Utility scripts for dataset generation and validation.
-
-env/
-    Conda and pip environments required for reproducing the validation datasets.
+validation_data_MTB/
+├── contamination/
+│   ├── metadata/
+│   ├── reference_dataset/
+│   ├── reports/
+│   └── README.md
+│
+├── lineage/
+│   ├── metadata/
+│   │   └── fastlin/
+│   ├── pilot/
+│   └── README.md
+│
+├── mixed_infection/
+│   ├── metadata/
+│   ├── reference_dataset/
+│   ├── reports/
+│   └── README.md
+│
+├── tbtamr/
+│   └── reference_dataset/
+│
+├── scripts/
+│   ├── amr/
+│   ├── contamination/
+│   ├── lineage/
+│   └── mixed_infection/
+│
+├── references/
+├── docs/
+├── env/
+├── workflow/
+├── .gitignore
+└── README.md
 ```
 
-## Validation Datasets
+The objective-specific directories contain validation resources and supporting evidence. The `scripts/` directory contains utilities for dataset preparation and processing, while `workflow/` contains workflow-related resources.
 
-### AMR Validation Dataset
+## 4. AMR Genotype-to-Phenotype Validation
 
-The AMR validation dataset is derived from publicly available MTB isolates with high-confidence genotype and phenotype information.
+**Primary source:** tbtAMR
 
-Current resources include:
+This objective focuses on evaluating antimicrobial resistance predictions against reference resistance information derived from published MTB datasets.
 
-* AMR truth sets
-* Sample manifests
-* Galaxy collection manifests
-* Validation reports
-* Example workflow outputs
+Phenotypic DST results serve as the ground truth, against which resistance predictions derived from WGS data are evaluated.The repository contains curated validation results and sample manifests supporting the selection and processing of MTB sequencing datasets.
 
-Primary source:
+The validation approach involves:
 
-* tbtAMR (PRJNA857537)
+- Identifying samples with paired WGS and phenotypic DST results.
+- Curating reference datasets and generating validation manifests.
+- Running the bioinformatics workflow to obtain genotypic resistance predictions.
+- Comparing predicted resistance profiles against phenotypic DST results.
+- Assessing concordance and relevant performance metrics.
 
-### Lineage Validation Dataset
 
-The lineage validation framework is currently under active development.
+## 5. Lineage Assignment Validation
 
-Current resources include:
+**Primary source:** Fastlin
 
-* TBDB lineage barcode markers
-* Coll et al. lineage reference datasets
-* Candidate lineage validation samples
-* Pilot FASTQ validation panel
-* TB-Profiler lineage characterization results
+This objective evaluates the ability of MTB bioinformatics workflows to assign the expected lineage and sub-lineage.
 
-Primary sources:
+Fastlin and TB-Profiler classifications were used to identify candidate samples. Rather than accepting these classifications as ground truth, selected lineage assignments were further confirmed using sequencing evidence at established lineage-defining SNP positions.
 
-* Coll et al.
-* TBDB barcode database
+The preparation process includes:
 
-## Trusted Data Sources
+1. Integrating Fastlin and TB-Profiler classification information.
+2. Identifying and selecting suitable single-lineage candidates.
+3. Preparing lineage-defining SNP barcode references and expected markers.
+4. Aligning sequencing reads and examining SNP-level evidence to confirm expected lineage assignments.
+5. Refining the reference panel based on SNP confirmation results.
+6. Evaluating lineage-supporting observations.
 
-| Validation Target     | Source / Dataset               | Notes                                        |
-| --------------------- | ------------------------------ | -------------------------------------------- |
-| AMR prediction        | tbtAMR (PRJNA857537)           | High-confidence isolates with phenotypic DST |
-| Lineage assignment    | Coll et al.; TBDB              | Lineage-defining SNPs and reference genomes  |
-| Variant calling       | Public MTB WGS datasets        | Genome-wide SNP validation                   |
-| Species determination | MTB and NTM reference datasets | Evaluation of species classification         |
-| Mixed samples         | Under development              | Future validation component                  |
+Supporting metadata, candidate selection tables, pilot manifests, reports, and scripts are maintained in the `lineage/` and `scripts/lineage/` directories.
 
-## Dataset Generation Workflow
+See `lineage/README.md` for the detailed methodology.
 
-The repository contains scripts used to construct validation datasets from public resources.
+## 6. Mixed-Infection Detection Validation
 
-### 1. Extract Truth Set
+**Primary source:** Sobkowiak et al. (2018)
 
-`extract_samples_from_tbtamr.py`
+This objective evaluates whether MTB workflows can identify samples containing more than one MTB strains.
 
-* Reads source validation datasets
-* Selects isolates for validation
-* Produces curated truth sets
+The reference dataset includes known mixed-sample compositions and expected major and minor lineage information derived from the published study.
 
-### 2. Download FASTQs
+The dataset preparation process includes:
 
-`extract_fastqs_for_tbtamr.py`
+- Extracting reference sample information.
+- Recording expected mixed-infection status.
+- Documenting major and minor lineage assignments.
+- Capturing expected mixture proportions.
+- Generating a validation manifest.
+- Recording data provenance and integrity checks.
 
-* Retrieves paired-end FASTQ files from ENA
-* Downloads validation reads
-* Maintains reproducible sample selection
 
-### 3. Generate Validation Manifests
+These resources support subsequent comparisons between workflow predictions and known mixed-sample compositions.
 
-`generate_manifest.py`
+See `mixed_infection/README.md` for further documentation.
 
-Produces:
+## 7. Contamination Detection Validation
 
-* `truth_set_manifest.csv`
-* `validation_set_manifest.yaml`
+**Primary source:** Heupink et al. (2021)
 
-These manifests can be used directly within Galaxy or Planemo workflows.
+This objective evaluates workflow behaviour when MTB sequencing data contain reads originating from contaminating organisms or simulated contamination scenarios.
 
-### 4. Optional End-to-End Pipeline
+The reference dataset is constructed from published contamination simulation data and associated sequencing metadata.
 
-`run_pipeline.py`
+The current preparation process includes:
 
-Executes the complete validation dataset generation process.
+1. Extracting expected contamination information from the published dataset.
+2. Applying documented sample selection criteria.
+3. Linking selected samples to sequencing accessions.
+4. Generating a validation manifest.
+5. Selecting a balanced pilot dataset across contamination levels.
+6. Preparing FASTQ download information for subsequent workflow evaluation.
 
-## Validation Workflow
+The current reference panel contains **100 samples** at the selected coverage level, with a **30-sample pilot panel** comprising five samples at each contamination level from 0% to 5%.
 
-The general validation process is:
+The repository includes the truth set, validation manifest, pilot manifest, selection policy, metadata, and preparation reports.
 
-1. Obtain validation samples using the supplied manifests.
-2. Execute the workflow under evaluation.
-3. Compare workflow outputs against the supplied truth sets.
-4. Calculate concordance and performance metrics.
-5. Document validation results according to the provided procedures.
+See `contamination/README.md` for the detailed selection methodology and supporting evidence.
 
-## Environment Setup
+## 8. General Validation Approach
 
-### Using Conda
+Although each objective has its own reference dataset and performance characteristics, the overall validation approach follows a common structure.
 
-```bash
-conda env create -f env/environment.yml
-conda activate validation_env
-```
+**Reference data identification**
 
-### Using Pip
+Identify published datasets with suitable expected results and sufficient supporting metadata.
 
-```bash
-pip install -r env/requirements.txt
-```
+**Dataset preparation**
 
-## Current Status
+Extract, standardize, and curate reference information while retaining links to the original sources.
 
-### Available
+**Sample selection**
 
-* AMR validation dataset
-* Validation manifests
-* Dataset generation scripts
-* TBDB lineage marker resources
-* Pilot lineage validation dataset
-* TB-Profiler lineage characterization
+Apply objective-specific inclusion and exclusion criteria, documenting selection decisions and dataset limitations.
 
-### Under Development
+**Validation manifest generation**
 
-* Expanded lineage validation panel
-* Indel validation framework
-* Mixed infection validation datasets
-* Species determination validation datasets
-* Galaxy workflow publication through the Intergalactic Workflow Commission (IWC)
+Create structured sample manifests linking identifiers, expected results, and sequencing resources.
 
-## Future Work
+**Workflow evaluation**
 
-Planned additions include:
+Execute the workflow under evaluation using the selected datasets and collect the relevant outputs.
 
-* Broader lineage coverage 
-* Mixed infection validation datasets
-* Contamination assessment datasets
-* Additional pathogen-specific validation resources
-* Automated validation reporting
-* Workflow publication through Galaxy community infrastructure
+**Performance assessment**
 
-## advISO Project
+Compare observed outputs with the defined reference results and calculate appropriate objective-specific performance measures.
 
-The advISO project aims to develop practical resources that support quality-assured pathogen bioinformatics and facilitate adoption of ISO accreditation principles within bioinformatics workflows.
+**Documentation and traceability**
 
-Project website:
+Maintain scripts, reports, source references, dataset versions, and integrity information needed to reproduce and review the validation process.
+
+Not every objective has completed every stage of this process. The objective-specific documentation should be consulted for current progress and outstanding work.
+
+## 9. Reproducibility and Data Management
+
+The repository is designed to support transparent and reproducible dataset preparation.
+
+Where applicable, this includes:
+
+- Public source references and accession identifiers.
+- Dataset selection criteria and supporting metadata.
+- Version-controlled scripts.
+- Structured reference datasets and manifests.
+- Data preparation reports.
+- Checksums for integrity verification.
+- Documentation of assumptions and limitations.
+
+Large sequencing files, such as raw FASTQs and alignment BAMs, are excluded from routine Git version control. They should be obtained from the referenced data sources using the appropriate manifests and preparation procedures.
+
+Local legacy files and temporary analysis outputs are also excluded where specified in `.gitignore`.
+
+## 10. Current Development Status
+
+| Validation objective | Current status |
+|---|---|
+| AMR genotype-to-phenotype | Reference dataset and supporting validation resources prepared |
+| Lineage assignment | Fastlin reference preparation and pilot analysis resources developed |
+| Mixed-infection detection | Truth set, validation manifest, reports prepared |
+| Contamination detection | Reference panel and pilot manifests prepared; workflow evaluation ongoing |
+
+Additional validation objectives, including speciation, SNP and indel detection, will be incorporated as the framework develops.
+
+## 11. Using the Repository
+
+To work with the validation resources:
+
+1. Clone the repository.
+2. Review the README and metadata for the relevant validation objective.
+3. Identify the required source data and software dependencies.
+4. Obtain sequencing data using the supplied accessions and manifests.
+5. Run the relevant dataset preparation or workflow evaluation procedures.
+6. Compare observed results with the reference data.
+7. Document performance results, limitations, and any deviations from the defined methodology.
+
+
+The scripts and datasets are intended to be used with their corresponding documentation. Users should verify dependencies, file paths, and required inputs before running individual scripts.
+
+## 12. Data Sources and Attribution
+
+The validation resources are derived from publicly available research datasets.
+
+Key sources include:
+
+- **tbtAMR:** MTB antimicrobial resistance validation data.
+- **Fastlin:** MTB lineage assignment and classification resources.
+- **Sobkowiak et al. (2018):** Mixed MTB infection reference data.
+- **Heupink et al. (2021):** MTB contamination simulation datasets.
+
+Full source information, accession references, and methodological details should be obtained from the relevant objective-specific documentation.
+
+Users should cite the original publications and datasets when reusing these resources.
+
+## 13. advISO Project
+
+The advISO project develops practical resources to support the implementation of quality-assured bioinformatics workflows and the adoption of ISO-aligned validation practices.
+
+Project information:
 
 https://www.cardiff.ac.uk/adviso-bioinformatics-accreditation
 
-## Citation
+## 14. Citation
 
-If you use these validation resources, please cite the original data sources as described in the accompanying documentation and metadata files.
+If you use resources from this repository, please acknowledge the advISO project and cite the original publications and datasets relevant to the validation objectives used.
+
+This repository is under active development. Dataset preparation, pilot analyses, workflow evaluation, and supporting documentation may be updated as validation activities progress.
